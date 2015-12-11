@@ -14,6 +14,107 @@ html {
     line-height: 1.4;
 }
 
+#top_section {
+  height:87px;
+  width: 100%;
+  background-color:white;
+}
+
+#section_two {
+  height:600px;
+  width: 100%;
+  background-image:url("../img/WebBackground.png");
+  background-position: 5%,5%;
+  background-size: cover;
+}
+
+#section_three {
+  height:400px;
+  width:100%;
+  background-color;pink;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  width: 450px;
+  height: auto;
+  font-family:'SansSerif', bold;
+  font-size:10px;
+  margin-top:5px;
+}
+
+#menu {
+  width:210px;
+  margin-top:8px;
+}
+
+#left_content {
+  width: 510px;
+  margin-top:20px;
+}
+
+#sec3content {
+  font-family:'SansSerif';
+  font-size:18px;
+  margin-top:60px;
+   padding-bottom:50px;
+}
+
+
+#button {
+  -webkit-appearance: button;
+}
+
+.leftheader {
+  font-family: SansSerif;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.sec3content {
+  color:#6D6E70;
+  font-size:20px;
+  margin-top:70px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: SansSerif;
+  color: #ffffff;
+  font-size: 10px;
+  background: #00afbb;
+  padding: 12px 10px 12px 10px;
+  border: solid 00548b 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.float_left {
+  float:left;
+}
+
+.float_right {
+  float:right;
+}
+
+.clear {
+  clear: both;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
