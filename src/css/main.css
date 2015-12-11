@@ -24,14 +24,18 @@ html {
   height:600px;
   width: 100%;
   background-image:url("../img/WebBackground.png");
-  background-position: 5%,5%;
-  background-size: cover;
-}
+  background-position: center;
+} 
 
 #section_three {
   height:400px;
   width:100%;
-  background-color;pink;
+}
+
+#section_four {
+  height:700px;
+  width:100%
+  background-color;gray;
 }
 
 #wrapper {
@@ -58,11 +62,17 @@ html {
   margin-top:20px;
 }
 
+#right_content {
+  width:50px;
+  margin-top:30px;
+  margin-left:75px;
+}
+
 #sec3content {
   font-family:'SansSerif';
   font-size:18px;
   margin-top:60px;
-   padding-bottom:50px;
+  margin-bottom:50px;
 }
 
 
@@ -79,7 +89,14 @@ html {
 .sec3content {
   color:#6D6E70;
   font-size:20px;
+  font-weight:bold;
   margin-top:70px;
+  margin-bottom:40px;
+}
+
+#sec4header {
+  font-size:32px;
+  font-family: SansSerif;
 }
 
 .center {
@@ -104,11 +121,11 @@ html {
 }
 
 .float_left {
-  float:left;
+  float: left;
 }
 
 .float_right {
-  float:right;
+  float: right;
 }
 
 .clear {
