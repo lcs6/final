@@ -166,6 +166,46 @@ padding-top:20px;
   color: #FFFFFF;
 }
 
+#footercontent1 {
+  width:240px;
+}
+
+#footercontent2 {
+  width:240px;
+}
+
+#footercontent3 {
+  width:240px;
+}
+
+#footercontent4 {
+  width:240px;
+}
+
+.footercontent {
+  font-family:"SansSerif";
+  color:#FFFFFF;
+  font-size: 18px;
+}
+
+.footersubtit {
+  position:relative;
+  font-family:"SansSerif";
+  color:#FFFFFF;
+  font-size:20px;
+  font-weight:bold;
+  top:15px;
+}
+
+.bottomline {
+  position:relative;
+  font-family:"SansSerif";
+  color:#FFFFFF;
+  v
+  font-size:1px;
+  top:100px;
+}
+
 .footertitle {
   font-family:"SansSerif";
   font-size:32px;
@@ -209,6 +249,7 @@ padding-top:20px;
   font-family: SansSerif;
   color: #ffffff;
   font-size: 10px;
+  font-weight:bold;
   background: #00afbb;
   padding: 12px 10px 12px 10px;
   border: solid 00548b 3px;
